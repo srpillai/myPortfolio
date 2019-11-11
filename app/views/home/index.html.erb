@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+.mySlides {display: none;}
+</style>
+<body class="w3-content w3-black" style="max-width:1500px;">
+
+</head>
+
+
+<!-- Begin the App Section -->
+<div class="w3-padding-64 w3-gray">
+  <div class="w3-row-padding">
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>Radhakrishnan Pillai</b></h1>
+      <h1 class="w3-xxxlarge w3-text-brown"><b>Software Professional</b></h1>
+      <p><span class="w3-xlarge">Does software like a pro.</span> I am a software professional who thrives in a fast-paced environment and is fascinated by innovation.
+           A specialist with a proactive style of identifying a problem, proposing a solution and adapting it along the way. </p>
+
+       <p>I specialize in React, Redux, JavaScript (ES6+), React Router, Webpack, Firebase; Python, Flask, SQLAlchemy, jQuery, HTML and CSS. </p>
+    
+    </div>
+    	<div class="w3-col l4 m6">
+        <%= image_tag('photo.png', width: "90%") %>
+    	 
+      </div>
+  </div>
+</div>
+
+<!-- End the App Section -->
+
+<!-- Begin portfolio Section  one -->
+<div class="w3-padding-64 w3-light-grey">
+  <div class="w3-row-padding">
+    <div class="w3-col l4 m6">
+       <%= image_tag('budgetify.png', width: "100%") %>
+    </div>
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>budgetify</b></h1>
+      <h1 class="w3-xxxlarge w3-text-red"><b>Debt, who?</b></h1>
+      <p><span class="w3-xlarge">A revolution in credit card debt reduction.</span> The 
+      	budget manager app is called “Budgetify” which allows to track personal expenses. 
+      	Budgetify allows to create accounts through new user login. Users can create, view, 
+      	track, modify and remove expenses. <span class="w3-xlarge w3-text-purple">Uses React with Firebase.</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- End Portfolio Section  one -->
+
+<!-- Begin portfolio Section  two -->
+<div class="w3-padding-64 w3-light-grey">
+  <div class="w3-row-padding">
+    
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>vyomaX</b></h1>
+      <h1 class="w3-xxxlarge w3-text-blue"><b>Space, who?</b></h1>
+      <p><span class="w3-xlarge">A revolution in rocketry.</span> vyomaX uses open 
+      	source SpaceX API for details about about spaceX launch missions. Discover all 
+      	the interesting details about capsules, cores, landpads, launches, missions, 
+      	payloads and rockets. <span class="w3-xlarge w3-text-purple">Uses React with graphQL.</span>
+      </p>
+    </div>
+    <div class="w3-col l4 m6">
+       <%= image_tag('vyomax.png', width: "100%") %>
+    </div>
+  </div>
+</div>
+
+<!-- End Portfolio Section  two -->
+
+<!-- Begin Portfolio Section  three -->
+<div class="w3-padding-64 w3-light-grey">
+  <div class="w3-row-padding">
+  
+    <div class="w3-col l4 m6">
+       <%= image_tag('myStocks.png', width: "100%") %>
+    </div>
+    
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>myStocks</b></h1>
+      <h1 class="w3-xxxlarge w3-text-green"><b>Stock, who?</b></h1>
+      <p><span class="w3-xlarge">A revolution in stock values.</span> myStocks uses open 
+      	source Stock Quote API Gem for details about about current stock values. The stock 
+      	market app that let's you look up stock quotes and financial information and 
+      	save it to a database. <span class="w3-xlarge w3-text-purple">Uses Ruby on Rails with PostgreSQL.</span>
+      </p>
+    </div>
+     <p class="w3-xlarge"><a href="https://p-mystock.herokuapp.com/" target="_blank" 
+     		class="w3-hover-text-green"><strong>Check Out: myStocks!</strong></a>
+     </p>
+  </div>
+</div>
+
+<!-- End Portfolio Section  three -->
+
+
+<!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+    <h2 class="w3-text-white">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Overland Park, Kansas</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p class="w3-hover-text-green"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge 
+      				w3-margin-right"> </i> Email: pillai@gmx.com</p>
+    </div><br>
+   
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-xlarge">
+      <div class="w3-section">
+        
+        <a href="https://github.com/srpillai/" 
+          target="_blank" class="w3-hover-text-green">  
+          <i class="fa fa-github w3-hover-opacity"></i>  
+        </a>    
+
+              &nbsp;  &nbsp;   &nbsp;   &nbsp;   &nbsp;
+
+        <a href="https://www.linkedin.com/in/r-pillai/" 
+          target="_blank" class="w3-hover-text-green">  
+          <i class="fa fa-linkedin w3-hover-opacity"></i>  
+        </a>
+
+      </div>
+      <p class="w3-medium">&copy; Radhakrishnan Pillai. 2021. </p>
+     
+    </footer>
+    
+	<!-- End Footer -->
+	
+  </div>
+
+	<!-- End Contact Section -->
+</body>
+</html>
