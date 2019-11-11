@@ -29,6 +29,13 @@ Uses Ruby on Rails with PostgreSQL database.
 * Start the server by command in terminal "rails server"
 View in  tcp://localhost:3000
 
+## Heroku Deployment:
+
+View in  
+
+# https://r-myportfolio.herokuapp.com/
+
+
 ## Author:
 
 * Radhakrishnan Pillai - Initial work @ LaunchCode 2020
