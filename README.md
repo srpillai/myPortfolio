@@ -3,22 +3,40 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+* Ruby version 2.6.3
 
-* Ruby version
+* System dependencies (PostgreSQL)
 
-* System dependencies
+The myPortfolio app provides details about my current projects in React and Ruby on Rails.
 
-* Configuration
+Uses Ruby on Rails with PostgreSQL database.
 
-* Database creation
+## Built With:
 
-* Database initialization
 
-* How to run the test suite
+* Ruby version 2.6.3
+* Rails version 6.0
 
-* Services (job queues, cache servers, search engines, etc.)
+* CSS & Bootstrap- for styling
+* Database PostgreSQL
 
-* Deployment instructions
+## Installing:
 
-* ...
+
+* Clone or Download a copy from the Github: https://github.com/srpillai/myPortfolio.git
+* Go to the cloned or downloaded page in Terminal
+
+* Start the server by command in terminal "rails server"
+View in  tcp://localhost:3000
+
+## Author:
+
+* Radhakrishnan Pillai - Initial work @ LaunchCode 2020
+
+## License:
+
+* This project is licensed under the MIT License
+
+## Acknowledgments:
+
+* Inspiration: LC 101 - LaunchCode @ Rockhurst University, Kansas City, MO.
